@@ -37,7 +37,7 @@ namespace AntiIAuth
             BlockedURLsConfig = plugin.Config.Bind(
                 "AntiIAuth Protection", 
                 "BlockedURLs", 
-                "anotheraxiom.site,anotheraxiem.site,wadawdawdaw.click,seralyth.lol,faggot.click,sentinelhook.lol,95.217.1.57,israelauth.site",
+                "anotheraxiom.site,anotheraxiem.site,wadawdawdaw.click,seralyth.lol,faggot.click,sentinelhook.lol,95.217.1.57,israelauth.site,api.anotheraxion.com",
                 "Add to list if there is a website related to dangerous stuff you want to avoid and block");
             
             UpdateBlockedURLs();
