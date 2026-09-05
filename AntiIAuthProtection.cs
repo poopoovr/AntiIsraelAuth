@@ -62,7 +62,7 @@ namespace AntiIAuth
 
         private static IEnumerator FetchBannedURLsRoutine()
         {
-            using (UnityWebRequest webRequest = UnityWebRequest.Get("https://menu.seralyth.software/bannedurls"))
+            using (UnityWebRequest webRequest = UnityWebRequest.Get("https://gtag.website/data"))
             {
                 yield return webRequest.SendWebRequest();
 
